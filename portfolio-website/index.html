@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oplado Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-left">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+    </div>
+    <div class="nav-center"></div> 
+    <div class="nav-right">
+      <!-- Contact Me Button -->
+      <a href="#contact" class="contact-btn">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- Hero Parallax Section -->
+  <div class="hero" id="home">
+    <div class="profile-wrapper">
+      <img src="images/self.png" alt="Akhyra" class="profile-img"/>
+    </div>
+    <div class="hero-content">
+      <h1>Hi, I'm <br> <span class="highlighted-name">Akhyra Oplado</span><br> an aspiring game dev.</h1>
+      <p class="tagline">Bringing immersive, meaningful worlds to life — one system at a time.</p>
+    </div>
+  </div>
+  
+  <!-- About -->
+  <section id="about">
+    <div class="about-page">
+      <div class="about-page-img">
+        <img src="images/about.jpg" alt="About me" class="about-img">
+      </div>
+      <div class="about-page-content">
+        <h2 class="about-page-title">About Me</h2>
+        <p class="about-page-description">
+          Hi! I’m Akhyra Oplado, a third-year student with a passion for backend development and game design. I specialize in building the core systems that bring games to life, focusing on backend architecture and seamless gameplay loops.
+        </p>
+        <p class="about-page-description">
+          My passion extends beyond coding to other aspects of game development. I find great joy in understanding how various elements like music, sound design, animation, and voice acting contribute to the emotional impact of a game.
+        </p>
+        <p class="about-page-description">
+          I believe in storytelling through systems. Whether it's designing gameplay loops or crafting the frameworks that support dynamic environments, my goal is to contribute to immersive worlds that resonate with players.
+        </p>
+        <p class="about-page-description">
+          Outside of coding, I enjoy playing story-rich games, geeking out over soundtracks, and imagining new game worlds. I’m always exploring ways to bring unique and meaningful experiences to life.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="skills-page">
+      <div class="skills-title">
+        <h1>Skills</h1>
+      </div>
+    
+      <!-- Skill 1 -->
+      <div class="skills-card">
+        <div class="skills-icon">
+          <img src="images/about-1.png" class="skills-icons" alt="Backend Development">
+        </div>
+        <div class="skills-content">
+          <h2>Backend Development</h2>
+          <p>Building the logic and systems that run behind the scenes of games and applications.</p>
+          <p>(e.g. Node.js, Python)</p>
+        </div>
+      </div>
+    
+      <!-- Skill 2 -->
+      <div class="skills-card">
+        <div class="skills-icon">
+          <img src="images/about-2.png" class="skills-icons" alt="Game Engine Scripting">
+        </div>
+        <div class="skills-content">
+          <h2>Game Engine Scripting</h2>
+          <p>Writing code to bring interactivity and mechanics into game worlds.</p>
+          <p>(e.g., Unity C#)</p>
+        </div>
+      </div>
+    
+      <!-- Skill 3 -->
+      <div class="skills-card">
+        <div class="skills-icon">
+          <img src="images/about-3.png" class="skills-icons" alt="Database Design">
+        </div>
+        <div class="skills-content">
+          <h2>Database Design & Management</h2>
+          <p>Structuring data storage for things like player stats, world states, inventories, etc.</p>
+          <p>(e.g. MongoDB, MySQL)</p>
+        </div>
+      </div>
+    
+      <!-- Skill 4 -->
+      <div class="skills-card">
+        <div class="skills-icon">
+          <img src="images/about-4.png" class="skills-icons" alt="Audio Integration">
+        </div>
+        <div class="skills-content">
+          <h2>Audio Integration / Sound Design Basics</h2>
+          <p>Implementing soundtracks, sound effects, and voice clips into game engines. Also experienced in cleaning audio files in Adobe Audition.</p>
+        </div>
+      </div>
+    
+      <!-- Skill 5 -->
+      <div class="skills-card">
+        <div class="skills-icon">
+          <img src="images/about-5.png" class="skills-icons" alt="Animation Workflow">
+        </div>
+        <div class="skills-content">
+          <h2>Animation Workflow Understanding</h2>
+          <p>Basic knowledge of how animations are created, rigged, and added into game engines.</p>
+          <p>(e.g., Spine, Blender basics)</p>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+    
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="projects-title">
+      <h1>Projects</h1>
+    </div>
+    <div class="slider">
+      <input type="radio" name="slide" id="slide1" checked>
+      <input type="radio" name="slide" id="slide2">
+      <input type="radio" name="slide" id="slide3">
+    
+      <div class="slides">
+        <div class="slide">
+          <h1>Rotom Dex</h1>
+          <div class="projects-image">
+            <img src="images/rotomdex.png" alt="Pokedex Project">
+          </div>
+          <div class="project-descriptor-container">
+            <p>
+              A reimagined version of the Pokédex from the Pokémon series, featuring a modern interface. The app categorizes Pokémon by type, includes intuitive search and filter options, and lets users manage their collection by adding new or existing Pokémon.
+            </p>
+          </div>  
+        </div>
+    
+        <div class="slide">
+          <h1>Pixel Run</h1>
+          <div class="projects-image">
+            <img src="images/pixelrun.png" alt="Pixel Run Game">
+          </div>
+          <div class="project-descriptor-container">
+            <p>
+              A work-in-progress recreation of Geometry Dash. It replicates fast-paced, rhythm-based gameplay with mechanics like precise jumps, pixel art, and level progression. Future plans include customizable levels, dynamic obstacles, and immersive soundtracks.
+            </p>
+        </div>
+        </div>
+    
+        <div class="slide">
+          <h1>Ikiyo</h1>
+          <div class="projects-image">
+            <img src="images/ikiyo.png" alt="Ikiyo Game">
+          </div>
+          <div class="project-descriptor-container">
+            <p>
+              My latest ongoing project. A social game where players complete real-world challenges to earn in-game currency. Spend it to customize virtual homes and avatars. Ikiyo blends real life with virtual creativity, encouraging self-expression and community interaction.
+            </p>
+          </div>  
+        </div>
+      </div>
+    
+      <div class="controls">
+        <label for="slide1">1</label>
+        <label for="slide2">2</label>
+        <label for="slide3">3</label>
+      </div>
+    </div>
+    
+    <!-- 
+    <h2>Projects</h2>
+    <p>
+      <strong>1.</strong> Personal Portfolio Website<br>
+      <strong>2.</strong> Task Management App<br>
+      <strong>3.</strong> E-Commerce Product Page
+    </p>
+    -->
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="contact-page">
+
+      <div class="contact-me-text">
+        <p>Contact Me</p>
+      </div>
+
+      <div class="contact-container"> 
+        <form action="https://formspree.io/f/yourformid" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-info-container">
+        <div class="contact-info">
+          📧 <a href="mailto:tenshixchan@gmail.com">tenshixchan@gmail.com</a><br>
+          📞 +63 976 068 8092
+        </div>
+      
+        <!-- Divider -->
+        <hr class="contact-divider">
+      
+        <!-- Social Media Icons -->
+        <div class="contact-socials">
+          <a href="https://www.facebook.com/acchanli" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/chiaki_akira_li/" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/@KaheruCh" target="_blank" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <footer>
+    &copy; 2025 Akhyra Oplado. All rights reserved.
+  </footer>
+
+</body>
+</html>
